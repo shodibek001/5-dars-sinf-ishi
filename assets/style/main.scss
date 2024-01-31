@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+
+@mixin btn_style ($background-color,) {
+    width: 150px;
+    height: 50px;
+    background-color:aqua;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+    border: 2px solid transparent;
+
+    &:hover {
+        background-color: transparent;
+        color: $background-color;
+        border-color: $background-color;
+        transition: .5s;
+    }
+}
+
+.registr {
+    @include btn_style(dodgerblue, )
+}
+
+.login {
+    @include btn_style(rgb(0, 17, 255), )
+}
+
+.login1 {
+    @include btn_style(rgba(255, 217, 0, 0.769),);
+}
+
+.registr1 {
+    @include btn_style(green, 250px);
+}

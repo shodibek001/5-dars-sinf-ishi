@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 100vh;
+}
+
+.registr {
+  width: 100px;
+  height: 50px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.registr:hover {
+  background-color: transparent;
+  color: dodgerblue;
+  border-color: dodgerblue;
+  transition: 0.5s;
+}
+
+.login {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.login:hover {
+  background-color: transparent;
+  color: red;
+  border-color: red;
+  transition: 0.5s;
+}
+
+.login1 {
+  width: 200px;
+  height: 50px;
+  background-color: gold;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.login1:hover {
+  background-color: transparent;
+  color: gold;
+  border-color: gold;
+  transition: 0.5s;
+}
+
+.registr1 {
+  width: 250px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+.registr1:hover {
+  background-color: transparent;
+  color: green;
+  border-color: green;
+  transition: 0.5s;
+}/*# sourceMappingURL=main.css.map */
